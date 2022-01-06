@@ -1,0 +1,72 @@
+﻿<!--John Berthelsen-->
+<!--Mission #2-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+<!--Webpage Title-->
+    <title>Mission #2</title>
+<!--Bootstrap CSS-->
+    <!--<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />-->
+<!--My Custom CSS-->
+    <link href="css/default.css" rel="stylesheet" />
+<!--Custom Tab Icon-->
+    <link href="img/scubaflag.png" rel="icon" />
+</head>
+<body>
+
+<!--Header-->
+    <h1>John Berthelsen</h1>
+
+<!--Fun Image-->
+    <img src="img/JohnScuba.jpg"
+            width="400"
+            height="500"
+            align-items="center" />
+    <br />
+
+<!--IS 413 Expectations-->
+    <form style= "outline: 5px solid red; width: 600px; padding-top: 30px; padding-right: 30px; padding-bottom: 15px; padding-left: 30px; align-content: center; align-items: center; display: flex; flex-direction: column; justify-content: center; outline: 5px solid red; margin-bottom: 60px; margin-bottom: 40px; margin-left: auto; margin-right: auto;">
+        <p>
+            Upon completion of the IS 413 course, I hope I will have gained a greater understanding of ASP.NET
+            and have become more proficient in C#. As I study Enterprise Application Development, I hope to learn
+            the basics of the programs and tools used by developers in business. I look forward to working with
+            my group on future projects and what I can learn from them. Most of all, I look forward to applying
+            what I learn to my own business in the near future.
+        </p>
+
+    <!--Interesting Jobs-->
+        <p>The 3 jobs I am most interested in upon graduating are:</p>
+        <ul>
+            <li>Pilot</li>
+            <li>Skydiver</li>
+            <li>Web Developer</li>
+        </ul>
+    </form>
+
+<!--Grade Calculator Form-->
+    <div style="align-content: center; align-items:center; align-self:center;">
+        <form style="align-content: center; align-items:center; display: flex; flex-direction: column; justify-content: center; outline: 5px solid red; margin-bottom: 60px; width: 200px;">
+            <h2>Grade Calculator</h2>
+            <label>Assignments</label><br />
+            <input id="AssignmentsPct" type="number" min="0" /><br /><br />
+            <label>Group Project</label><br />
+            <input id="GroupProjectPct" type="number" min="0" /><br /><br />
+            <label>Quizzes</label><br />
+            <input id="QuizzesPct" type="number" min="0" /><br /><br />
+            <label>Exams</label><br />
+            <input id="ExamsPct" type="number" min="0" /><br /><br />
+            <label>INTEX</label><br />
+            <input id="INTEXPct" type="number" min="0" /><br /><br />
+            <button id="btnCalc" type="button" value="Calculate">Calculate</button>
+        </form>
+    </div>
+    <br />
+
+<!--JavaScript-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/GradeCalc.js"></script>
+
+</body>
+</html>
